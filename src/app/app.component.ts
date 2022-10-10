@@ -26,7 +26,7 @@ export class AppComponent {
     }
     this.products.push(newProduct);
     this.p_producto = "";
-    this.p_imagen = "";
+    this.p_imagen = "https://www.pexels.com/es-es/foto/superficie-de-madera-marron-129733/";
     this.p_estado="";
   }
   deleteProduct(position: number): void{
